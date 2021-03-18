@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+
+Name=QuarryDB
+GenericName=A Simple KDE Application
+Icon=quarrydb
+
+Exec=quarrydb
+StartupWMClass=quarrydb
