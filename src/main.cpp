@@ -37,13 +37,13 @@ int main(int argc, char **argv)
 
     KAboutData aboutData( QStringLiteral("quarrydb"),
                           i18n("QuarryDB"),
-                          QStringLiteral("%{VERSION}"),
-                          i18n("A Simple Application written with KDE Frameworks"),
+                          QStringLiteral("v0.1"),
+                          i18n("A SQLite Editor Application that supports ORMs"),
                           KAboutLicense::GPL,
-                          i18n("Copyright %{CURRENT_YEAR}, %{AUTHOR} <%{EMAIL}>"));
+                          i18n("Copyright 2021, Tridentu Group"));
 
-    aboutData.addAuthor(i18n("%{AUTHOR}"),i18n("Author"), QStringLiteral("%{EMAIL}"));
-    aboutData.setOrganizationDomain("example.org");
+    aboutData.addAuthor(i18n("Tridentu Group"),i18n("Author"));
+    aboutData.setOrganizationDomain("tridentu.github.io");
     aboutData.setDesktopFileName(QStringLiteral("org.example.quarrydb"));
 
     KAboutData::setApplicationData(aboutData);

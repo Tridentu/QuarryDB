@@ -11,16 +11,24 @@ set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 include(KDEInstallDirs)
 include(KDECMakeSettings)
 include(KDECompilerSettings NO_POLICY_SCOPE)
+include(GenerateExportHeader)
 include(ECMInstallIcons)
 include(FeatureSummary)
 
-find_package(Qt5 ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS Core Gui Widgets)
+find_package(Qt5 ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS 
+Core 
+Gui 
+Widgets
+Sql
+)
 
 find_package(KF5 ${KF_MIN_VERSION} REQUIRED COMPONENTS
     CoreAddons
     I18n
+    XmlGui
 )
 
+add_subdirectory(libsrc)
 add_subdirectory(src)
 add_subdirectory(icons)
 

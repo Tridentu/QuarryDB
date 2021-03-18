@@ -24,34 +24,35 @@
 
 #include "ui_quarrydb.h"
 
-#include <QMainWindow>
+#include <KXmlGuiWindow>
 
 /**
  * This class serves as the main window for QuarryDB.  It handles the
  * menus, toolbars and status bars.
  *
  * @short Main window class
- * @author %{AUTHOR} <%{EMAIL}>
- * @version %{VERSION}
+ * @author Tridentu Group
+ * @version v0.1
  */
-class QuarryDBWindow : public QMainWindow
+class QuarryDBWindow : public KXmlGuiWindow
 {
     Q_OBJECT
 public:
     /**
      * Default Constructor
      */
-    QuarryDBWindow();
+    explicit QuarryDBWindow(QWidget* parent = nullptr);
 
     /**
      * Default Destructor
      */
-    ~QuarryDBWindow() override;
-
+    ~QuarryDBWindow();
+    
 private:
     // this is the name of the root widget inside our Ui file
     // you can rename it in designer and then change it here
     Ui::mainWidget m_ui;
+    void setupFileActions();
 };
 
 #endif // QUARRYDBWINDOW_H

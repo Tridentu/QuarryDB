@@ -1,0 +1,23 @@
+
+<gui name="quarrydb"
+     version="1"
+     xmlns="http://www.kde.org/standards/kxmlgui/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.kde.org/standards/kxmlgui/1.0
+                         http://www.kde.org/standards/kxmlgui/1.0/kxmlgui.xsd">
+    <MenuBar>
+        <Menu name="file">
+            <text>File</text>
+            <Action name="quit"></Action>
+        </Menu>
+        <Menu name="Edit">
+            <text>Edit</text>
+        </Menu>
+        <Menu name="View">
+            <text>View</text>
+        </Menu>
+        <!-- Tools Here-->
+    </MenuBar>
+
+</gui>
+    

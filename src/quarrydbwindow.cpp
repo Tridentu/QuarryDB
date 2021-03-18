@@ -19,15 +19,23 @@
 */
 
 #include "quarrydbwindow.h"
+#include <KActionCollection>
+#include <KStandardAction>
 
-QuarryDBWindow::QuarryDBWindow()
-    : QMainWindow()
+QuarryDBWindow::QuarryDBWindow(QWidget* parent)
+    : KXmlGuiWindow(parent)
 {
     QWidget *widget = new QWidget(this);
     setCentralWidget(widget);
     m_ui.setupUi(widget);
+    setupFileActions();
+    setupGUI(Default, "quarrydb.rc");
 }
 
 QuarryDBWindow::~QuarryDBWindow()
 {
+}
+
+void QuarryDBWindow::setupFileActions(){
+   KStandardAction::quit(qApp, &QCoreApplication::quit, actionCollection());
 }

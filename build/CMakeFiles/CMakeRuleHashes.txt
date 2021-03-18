@@ -1,0 +1,7 @@
+# Hashes of file build rules.
+16398f2480783095ddd75d26c6e7b56f CMakeFiles/fetch-translations
+0e4fe277f9e57def873fda8779468307 CMakeFiles/uninstall
+67e8f04a815d054dd812f4afbb4ee413 libsrc/CMakeFiles/quarrydbcore_autogen
+0a2d4ca20759c7ee5169b2cdf2e8fcd5 releaseme
+a3efb2bc3ffbc1c21f0359a8743ded22 src/CMakeFiles/quarrydb_autogen
+f0da3a48900795eb6bae117528e4376d src/ui_quarrydb.h
