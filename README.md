@@ -53,4 +53,4 @@ cmake $KDE_SRC -DCMAKE_INSTALL_PREFIX=$KDEDIRS -DCMAKE_BUILD_TYPE=Debug
 ```
 ## Licensing
 
-QuarryDB is open sourced under the GNU Public License (V2, KDE Version).
+QuarryDB is open sourced under the GNU Public License (V2).
