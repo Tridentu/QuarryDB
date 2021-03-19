@@ -30,3 +30,8 @@ DBManager::~DBManager()
 {
 
 }
+
+bool DBManager::createTable(const QString& name)
+{
+    return true;
+}

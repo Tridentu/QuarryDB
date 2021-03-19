@@ -21,7 +21,7 @@
 
 #ifndef INTEGERFIELD_H
 #define INTEGERFIELD_H
-
+#include <dbfield.h>
 /**
  * @todo write docs
  */

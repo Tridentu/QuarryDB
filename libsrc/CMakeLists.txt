@@ -1,9 +1,11 @@
 set( libquarrydb_SRCS
     dbmanager.cpp
+    dbfield.cpp
 )
 
 set( libquarrydb_HDRS
     dbmanager.h
+    dbfield.h
     ${CMAKE_CURRENT_BINARY_DIR}/quarrydb_export.h
 
 )

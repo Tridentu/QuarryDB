@@ -18,6 +18,6 @@ target_link_libraries( quarrydb
 
 
 install( TARGETS quarrydb ${KDE_INSTALL_TARGETS_DEFAULT_ARGS} )
-install( PROGRAMS org.example.quarrydb.desktop DESTINATION ${KDE_INSTALL_APPDIR} )
-install( FILES org.example.quarrydb.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR} )
+install( PROGRAMS io.github.tridentu.quarrydb.desktop DESTINATION ${KDE_INSTALL_APPDIR} )
+install( FILES io.github.tridentu.quarrydb.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR} )
 install(FILES quarrydb.rc DESTINATION ${KDE_INSTALL_KXMLGUI5DIR}/quarrydb)

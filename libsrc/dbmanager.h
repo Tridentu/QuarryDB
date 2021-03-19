@@ -47,7 +47,7 @@ public:
     
     virtual bool executeQuery(const QString& query) { return true; };
     
-    virtual bool createTable(const QString& name
+    virtual bool createTable(const QString& name);
 
 private:
     QSqlDatabase m_db;

@@ -3,6 +3,8 @@ set(quarrydb_ICONS
   22-apps-quarrydb.png
   32-apps-quarrydb.png
   48-apps-quarrydb.png
+  64-apps-quarrydb.png
+  128-apps-quarrydb.png
 )
 
 ecm_install_icons(ICONS ${quarrydb_ICONS} DESTINATION ${KDE_INSTALL_ICONDIR} THEME hicolor)

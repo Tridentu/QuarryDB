@@ -44,7 +44,7 @@ int main(int argc, char **argv)
 
     aboutData.addAuthor(i18n("Tridentu Group"),i18n("Author"));
     aboutData.setOrganizationDomain("tridentu.github.io");
-    aboutData.setDesktopFileName(QStringLiteral("org.example.quarrydb"));
+    aboutData.setDesktopFileName(QStringLiteral("io.github.tridentu.quarrydb"));
 
     KAboutData::setApplicationData(aboutData);
     application.setWindowIcon(QIcon::fromTheme(QStringLiteral("quarrydb")));
